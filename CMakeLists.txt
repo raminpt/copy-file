@@ -4,4 +4,5 @@ project(file_copy C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(file_copy main.c
-        file_operations.c)
+        file_operations.c
+        log_messages.c)
